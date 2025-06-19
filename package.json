@@ -1,0 +1,33 @@
+{
+  "name": "airpods-pro-animation",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Interactive scroll-driven AirPods Pro animation built with Astro, GSAP, and Tailwind CSS",
+  "author": "davillafer",
+  "homepage": "https://airpods-three.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davillafer/airpods.git"
+  },
+  "keywords": [
+    "astro",
+    "gsap",
+    "tailwindcss",
+    "scroll-animation",
+    "canvas",
+    "airpods"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/vercel": "^8.1.5",
+    "@tailwindcss/vite": "^4.1.10",
+    "astro": "^5.9.4",
+    "gsap": "^3.13.0",
+    "tailwindcss": "^4.1.10"
+  }
+}
